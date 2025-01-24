@@ -1,0 +1,19 @@
+2025-01-24 18:12:31,610 - INFO - Logging setup complete.
+2025-01-24 18:12:31,610 - INFO - Extracting data from CSV...
+2025-01-24 18:12:31,631 - INFO - Data loaded: 10001 rows, 18 columns
+2025-01-24 18:12:31,631 - INFO - Transforming data...
+2025-01-24 18:12:31,631 - INFO - Dropped column 'Unnamed: 14'.
+2025-01-24 18:12:31,631 - INFO - Dropped rows with missing values.
+2025-01-24 18:12:31,640 - INFO - Converted 'Delivery_person_Age' to int and 'TARGET' to numeric.
+2025-01-24 18:12:31,644 - INFO - Encoded categorical columns.
+2025-01-24 18:12:31,649 - INFO - Data split into train and test sets.
+2025-01-24 18:12:31,649 - INFO - Training models...
+2025-01-24 18:12:33,261 - INFO - Random Forest Evaluation:
+2025-01-24 18:12:33,261 - INFO -   R-squared: 0.8237
+2025-01-24 18:12:33,261 - INFO -   MAE: 4.9415
+2025-01-24 18:12:33,261 - INFO -   MSE: 45.8648
+2025-01-24 18:12:33,261 - INFO - Gradient Boosting Evaluation:
+2025-01-24 18:12:33,261 - INFO -   R-squared: 0.8504
+2025-01-24 18:12:33,261 - INFO -   MAE: 4.6259
+2025-01-24 18:12:33,261 - INFO -   MSE: 38.9137
+2025-01-24 18:12:33,269 - INFO - Best model (Gradient Boosting) saved to disk.
